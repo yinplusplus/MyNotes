@@ -1,0 +1,16 @@
+screenshot:
+iphone 8 plus  -- 5.5" -- 1242 x 2208
+iphone XS max -- 6.5" -- 1242 x 2688
+ipad pro generation 2 -- 12.9" -- 2048 x 2732
+ipad pro generation 3 -- 12.9" -- 2048 x2732
+
+apple resolution center bugs:
+copy url , instead APPID, use new resolution center url to enter 
+
+xcode <--> iphone devices:
+
+1. activity monitor:   usbd killed,  kill the usbd
+keep the iphone screen off, easy to kill
+1. device update to new version /deviceSupport/   to check
+
+
