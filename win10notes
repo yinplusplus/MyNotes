@@ -1,0 +1,3 @@
+window 10 vpn: 
+proxy:  http://socks=127.0.0.1 8088
+ssh -C -D 8088  username 
