@@ -22,8 +22,23 @@ git remote add origin git@github.com:xxxx/xxxxx.git
 git remote rm origin
 -------------------------------------------
 git init
+git pull remote url 
+git rm -r --cached .
+git add .
+git commit -m "xx"
+git push -u ssh  
+git push -u origin master 
 
 
 ---------------------------------
+git merge conflic
+
+project.pbxproj
+
+<<<<<<Head
+
+=========
+>>>>>>>>Master
+
 
 
