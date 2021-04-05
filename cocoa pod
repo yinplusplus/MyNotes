@@ -1,0 +1,5 @@
+pod install --verbose --no-repo-update
+pod update --verbose --no-repo-update 
+sudo gem install -n /usr/local/bin cocoapod
+subo gem install cocoapod : 没有 /usr/bin 权限， 新版macos规定
+
