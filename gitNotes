@@ -1,3 +1,29 @@
 1. pod repo update  : need cross Greate Wall, SSH, if not vpn, too slow
 2. git config --global --list 
-git config --global http.proxy socks:
+git config --global http.proxy socks:127.0.0.1:8088
+
+3.git config --global --unset http.proxy
+--------------------------------------------------
+git tag -a v1.0 -m "add tag "
+git push origin --tags
+----------------------------------------------------
+git show vx.x  show message
+---------------------------------------------
+when update .gitigore, do following steps, make it take effect
+git rm -r --cached   clear stage area content
+git add .
+git commit -m ""
+--------------------------------------
+~/.ssh/private public key
+ssh -T   test
+------------------------
+git push -u origin master
+git remote add origin git@github.com:xxxx/xxxxx.git
+git remote rm origin
+-------------------------------------------
+git init
+
+
+---------------------------------
+
+
